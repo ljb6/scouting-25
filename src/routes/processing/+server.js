@@ -2,6 +2,7 @@ import { json } from '@sveltejs/kit';
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { JWT } from 'google-auth-library';
 
+import { PRIVATE_KEY, CLIENT_EMAIL } from '$env/static/private';
 import creds from '../scouting_credentials.json';
 
 const SCOPES = [
@@ -10,8 +11,8 @@ const SCOPES = [
 ];
 
 const jwt = new JWT({
-	email: creds.client_email,
-	key: creds.private_key,
+	email: CLIENT_EMAIL,
+	key: PRIVATE_KEY,
 	scopes: SCOPES
 });
 
