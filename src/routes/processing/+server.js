@@ -3,7 +3,6 @@ import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { JWT } from 'google-auth-library';
 
 import { PRIVATE_KEY, CLIENT_EMAIL } from '$env/static/private';
-import creds from '../scouting_credentials.json';
 
 const SCOPES = [
 	'https://www.googleapis.com/auth/spreadsheets',
