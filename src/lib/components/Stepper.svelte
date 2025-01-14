@@ -83,11 +83,10 @@
 
 <section class="flex flex-col items-center">
 	<!--<svelte:component this={steps[currentStep]} {formData} />-->
-	{formData.name}
-	{formData.email}
 	{#key currentStep}
 		{#if currentStep === 0}
 			<StartStep />
+			<h2>Scouter: {formData.name}</h2>
 		{:else if currentStep === 1}
 			<PreGameStep {formData} />
 		{:else if currentStep === 2}

@@ -12,7 +12,7 @@
 	import TextInput from '$lib/components/TextInput.svelte';
 </script>
 
-<section class="">
+<section>
 	<div class="mb-4 flex items-center justify-between">
 		<h1 class="text-2xl font-semibold">Pregame</h1>
 		<h1 class="text-2xl font-semibold">1/4</h1>

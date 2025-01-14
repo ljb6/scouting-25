@@ -1,0 +1,8 @@
+{
+	"/": [],
+	"/processing": [
+		"src/routes/processing/+server.js"
+	],
+	"/sign-in": [],
+	"/sign-up": []
+}
