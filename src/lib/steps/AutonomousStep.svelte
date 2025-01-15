@@ -34,5 +34,11 @@
             <NumberInput max={7} bind:value={formData.autoL4Corals}/>
         </div>
     </div>
+    <div>
+        <div class="mt-4">
+            <h3 class="flex justify-center">Processor 🥅</h3>
+            <NumberInput max={7} bind:value={formData.autoProcessor}/>
+        </div>
+    </div>
 </section>
 

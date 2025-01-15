@@ -14,15 +14,15 @@
 		email: email[0].emailAddress,
 		teamNumber: '',
 		matchNumber: 0,
-		matchLevel: '',
+		matchLevel: 'Quali',
 
 		// auto
 		autoL1Corals: 0,
 		autoL2Corals: 0,
 		autoL3Corals: 0,
 		autoL4Corals: 0,
-		autoLeft: '',
-		//autoProcessor: 0,
+		autoLeft: 'off',
+		autoProcessor: 0,
 
 		// tele
 		teleL1Corals: 0,
@@ -33,10 +33,11 @@
 		teleNet: 0,
 
 		// end
-		endClimbAttempt: '',
-		endClimbLevel: '',
-		endClimbFailed: '',
-		endDefense: '',
+		endClimbAttempt: 'off',
+		endClimbLevel: 'off',
+		endClimbFailed: 'off',
+		endDefense: 'off',
+		endRobotFailed: 'off',
 		endFouls: 0,
 		comments: ''
 	};

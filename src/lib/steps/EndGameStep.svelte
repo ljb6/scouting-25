@@ -36,6 +36,9 @@
 		<div class="mb-6 mt-6">
 			<Switch label="Played as defense?" bind:value={formData.endDefense} />
 		</div>
+		<div class="mb-6 mt-6">
+			<Switch label="Robot failed?" bind:value={formData.endRobotFailed} />
+		</div>
 	</div>
 
 	<div>

@@ -40,6 +40,7 @@ export async function POST({ request }) {
 				autoL3Corals: data.autoL3Corals,
 				autoL4Corals: data.autoL4Corals,
 				autoLeft: data.autoLeft,
+				autoProcessor: data.autoProcessor,
 
 				// tele
 				teleL1Corals: data.teleL1Corals,
@@ -54,6 +55,7 @@ export async function POST({ request }) {
 				endClimbLevel: data.endClimbLevel,
 				endClimbFailed: data.endClimbFailed,
 				endDefense: data.endDefense,
+				endRobotFailed: data.endRobotFailed,
 				endFouls: data.endFouls,
 				comments: data.comments
 			}
