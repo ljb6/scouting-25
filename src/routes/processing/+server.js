@@ -39,8 +39,9 @@ export async function POST({ request }) {
 				autoL2Corals: data.autoL2Corals,
 				autoL3Corals: data.autoL3Corals,
 				autoL4Corals: data.autoL4Corals,
-				autoLeft: data.autoLeft,
 				autoProcessor: data.autoProcessor,
+				autoNet: data.autoNet,
+				autoLeft: data.autoLeft,
 
 				// tele
 				teleL1Corals: data.teleL1Corals,

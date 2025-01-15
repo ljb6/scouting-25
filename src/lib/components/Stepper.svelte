@@ -23,6 +23,7 @@
 		autoL4Corals: 0,
 		autoLeft: 'off',
 		autoProcessor: 0,
+		autoNet: 0,
 
 		// tele
 		teleL1Corals: 0,
@@ -79,6 +80,7 @@
 		} catch (err) {
 			console.error('Erro ao enviar dados:', err);
 		}
+		location.reload()
 	}
 </script>
 
