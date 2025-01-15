@@ -35,7 +35,7 @@
 
 		// end
 		endClimbAttempt: 'off',
-		endClimbLevel: 'off',
+		endClimbLevel: '',
 		endClimbFailed: 'off',
 		endDefense: 'off',
 		endRobotFailed: 'off',
