@@ -34,6 +34,7 @@
 		teleNet: 0,
 
 		// end
+		endPark: 'off',
 		endClimbAttempt: 'off',
 		endClimbLevel: '',
 		endClimbFailed: 'off',

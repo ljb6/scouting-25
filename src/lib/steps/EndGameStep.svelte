@@ -19,6 +19,9 @@
 			<h1 class="text-2x l font-semibold">4/4</h1>
 		</div>
 		<div class="mb-6 mt-6">
+			<Switch label="Parked?" bind:value={formData.endPark} />
+		</div>
+		<div class="mb-6 mt-6">
 			<Switch label="Attempted to climb?" bind:value={formData.endClimbAttempt} />
 		</div>
 

@@ -52,6 +52,7 @@ export async function POST({ request }) {
 				teleNet: data.teleNet,
 
 				// end
+				endPark: data.endPark,
 				endClimbAttempt: data.endClimbAttempt,
 				endClimbLevel: data.endClimbLevel,
 				endClimbFailed: data.endClimbFailed,
